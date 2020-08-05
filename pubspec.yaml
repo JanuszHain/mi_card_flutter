@@ -19,3 +19,12 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+
+  fonts:
+    - family: RussoOne
+      fonts:
+        - asset: fonts/RussoOne-Regular.ttf
+
+    - family: SourceSansPro
+      fonts:
+        - asset: fonts/SourceSansPro-Regular.ttf

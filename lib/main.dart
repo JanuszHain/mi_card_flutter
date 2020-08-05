@@ -22,8 +22,19 @@ class MyApp extends StatelessWidget {
               Text(
                 'Janusz H.',
                 style: TextStyle(
-                  color: Colors.white,
-                ),
+                    fontFamily: 'RussoOne',
+                    fontSize: 40.0,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold),
+              ),
+              Text(
+                'Android Developer',
+                style: TextStyle(
+                    fontFamily: 'SourceSansPro',
+                    letterSpacing: 2.5,
+                    fontSize: 20.0,
+                    color: Colors.teal[100],
+                    fontWeight: FontWeight.bold),
               ),
             ],
           ),
